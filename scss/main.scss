@@ -153,6 +153,20 @@ main {
             }
         }
     }
+    //servicios
+    .servicios {
+        margin: 20px;
+        margin-right: 20px;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.685);
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+    .textoserv {
+        color: $naranja !important;
+    }
 }
 
 footer {

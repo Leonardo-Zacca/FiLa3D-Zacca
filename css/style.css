@@ -128,6 +128,19 @@ main form {
       border-color: #FEA82F;
       color: #FEA82F; }
 
+main .servicios {
+  margin: 20px;
+  margin-right: 20px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.685);
+  margin-bottom: 20px;
+  border-radius: 15px; }
+
+main .textoserv {
+  color: #FEA82F !important; }
+
 footer {
   background-color: #033249; }
   footer p {
