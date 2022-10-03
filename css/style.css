@@ -50,7 +50,8 @@ main p {
   color: #033249; }
 
 main .texto {
-  color: #C64928; }
+  color: #C64928;
+  margin-bottom: 20px; }
 
 main .btn-primary {
   margin: 5px;
@@ -58,14 +59,17 @@ main .btn-primary {
   border-color: #033249; }
 
 main .card {
-  background-color: rgba(170, 160, 160, 0.801);
+  background-color: rgba(12, 11, 11, 0.658);
   max-width: 20rem;
   display: flex;
   align-items: center;
-  border-radius: 10px; }
+  border-radius: 10px;
+  margin-bottom: 20px; }
   main .card:hover {
     border-color: #FEA82F;
-    border-width: 2px; }
+    border-width: 1px; }
+  main .card h5 {
+    color: #C64928; }
 
 main .card-image {
   height: auto;

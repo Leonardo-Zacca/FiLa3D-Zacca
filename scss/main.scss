@@ -63,6 +63,7 @@ main {
 
     .texto {
         color: $rojo;
+        margin-bottom: 20px;
     }
 
     .btn-primary {
@@ -73,11 +74,15 @@ main {
 
     //Cards
     .card {
-        @include card(rgba(170, 160, 160, 0.801));
+        @include card(rgba(12, 11, 11, 0.658));
+        margin-bottom: 20px;
 
         &:hover {
             border-color: $naranja;
-            border-width: 2px;
+            border-width: 1px;
+        }
+        h5{
+            color: $rojo;
         }
     }
 
