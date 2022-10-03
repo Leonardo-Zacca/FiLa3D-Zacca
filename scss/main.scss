@@ -74,7 +74,7 @@ main {
 
     //Cards
     .card {
-        @include card(rgba(12, 11, 11, 0.658));
+        @include card(rgba(12, 11, 11, 0.774));
         margin-bottom: 20px;
 
         &:hover {

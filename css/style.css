@@ -16,7 +16,8 @@ main {
   background-image: url(https://res.cloudinary.com/dag97qsi8/image/upload/v1661992719/ProyectoFinal/BackgroundMain_dgwrhp.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  height: 100vh; }
 
 html, body {
   height: 100%;
@@ -59,7 +60,7 @@ main .btn-primary {
   border-color: #033249; }
 
 main .card {
-  background-color: rgba(12, 11, 11, 0.658);
+  background-color: rgba(12, 11, 11, 0.774);
   max-width: 20rem;
   display: flex;
   align-items: center;
