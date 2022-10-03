@@ -16,15 +16,7 @@ main {
   background-image: url(https://res.cloudinary.com/dag97qsi8/image/upload/v1661992719/ProyectoFinal/BackgroundMain_dgwrhp.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
-  height: 100vh; }
-
-html, body {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  margin: 0; }
+  background-size: cover; }
 
 header .navbar-background {
   background-color: #033249; }
@@ -91,6 +83,10 @@ main .card-grid {
   gap: 1em;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr; }
+
+main .carousel {
+  background-color: rgba(0, 0, 0, 0.815);
+  border-radius: 10px; }
 
 main form {
   width: 450px;

@@ -11,13 +11,7 @@
 @import './variables/extend';
 @import './variables/mixin';
 
-html, body {
-    height:100%;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0;
-}
+
 header {
     .navbar-background {
         background-color: $azul;
@@ -109,6 +103,11 @@ main {
         gap: 1em;
         justify-items: center;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    //Carousel
+    .carousel{
+        background-color: rgba(0, 0, 0, 0.815);
+        border-radius: 10px;
     }
     //Contacto
     form{
